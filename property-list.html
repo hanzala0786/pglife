@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property List Page</title>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+    <header>
+        <div class="header sticky-top">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="home.html">
+                    <img src="img/logo.png" width="135px" height="55px">
+                </a>
+                <button class="navbar-toggler" type="button" data-target="#my-navbar" data-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="my-navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-target="#signup-modal" data-toggle="modal">
+                                <i class="fas fa-user"></i>Signup
+                            </a>
+                        </li>
+                        <div class="nav-vl"></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-target="#login-modal" data-toggle="modal">
+                                <i class="fas fa-sign-in-alt"></i>Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb py-2">
+                <li class="breadcrumb-item">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    Mumbai
+                </li>
+            </ol>
+        </nav>
+        <div class="container">
+            <div class="filter">
+                <div class="col-auto img-block">
+                    <img src="/img/filter.png" alt="" width="50px" height="50px">
+                    <span>Filter</span>
+                </div>
+
+                <div class="col-auto img-block" id="a">
+                    <img src="/img/asc.png" alt="" width="50px" height="50px">
+                    <span>Highest rent first</span>
+
+                </div>
+                <div class="col-auto img-block" id="b">
+                    <img src="/img/desc.png" alt="" width="50px" height="50px">
+                    <span>Lowest rent first</span>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="col col-md-4">
+                    <img src="/img/prop-1.jpg" class="img-fluid" alt="">
+
+                </div>
+                <div class="col-md-8">
+                    <div class="row no-gutters justify-content-between">
+                        <div title="4.5" class="star-container">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="interested-container">
+                            <i class="far fa-heart"></i>
+                            <div class="interested-text">3 interested</div>
+                        </div>
+                    </div>
+                    <div class="detail-container">
+                        <div class="property-name">Navkar Paying Guest</div>
+                        <div class="proprty-address">
+                            <div class="property-address">
+                                44, Juhu Scheme, Juhu, Mumbai, Maharashtra 400058</div>
+                        </div>
+                    </div>
+                    <div class="property-gender">
+                        <img src="/img/male.png" alt="">
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="rent-container col-6">
+                            <div class="rent">Rs 9,500/-</div>
+                            <div class="rent-unit">per month</div>
+                        </div>
+                        <div class="button-container col-6">
+                            <a class="btn-primary" href="property-detail.html">View</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="col col-md-4">
+                    <img src="/img/prop-2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="row no-gutters justify-content-between">
+                        <div title="4.5" class="star-container">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="interested-container">
+                            <i class="far fa-heart"></i>
+                            <div class="interested-text">3 interested</div>
+                        </div>
+                    </div>
+                    <div class="detail-container">
+                        <div class="property-name">Ganpati Paying Guest</div>
+                        <div class="proprty-address">
+                            <div class="property-address">
+                                Police Beat, Sainath Complex, Besides, SV Rd, Daulat Nagar, Borivali East, Mumbai - 400066</div>
+                        </div>
+                    </div>
+                    <div class="property-gender">
+                        <img src="/img/male.png" alt="">
+                        <img src="/img/female.png" alt="">
+                        
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="rent-container col-6">
+                            <div class="rent">Rs 8,500/-</div>
+                            <div class="rent-unit">per month</div>
+                        </div>
+                        <div class="button-container col-6">
+                            <a class="btn-primary" href="property-detail.html">View</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+
+                <div class="col col-md-4">
+                    <img src="/img/prop-3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="row no-gutters justify-content-between">
+                        <div title="4.5" class="star-container">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="interested-container">
+                            <i class="far fa-heart"></i>
+                            <div class="interested-text">2 interested</div>
+                        </div>
+                    </div>
+                    <div class="detail-container">
+                        <div class="property-name">PG for Girls Borivali West</div>
+                        <div class="proprty-address">
+                            Plot no.258/D4, Gorai no.2, Borivali West, Mumbai, Maharashtra 400092</div>
+                        <div class="property-address">
+                        </div>
+                    </div>
+                    <div class="property-gender">
+                        <img src="/img/female.png" alt="">
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="rent-container col-6">
+                            <div class="rent">Rs 8,000/-</div>
+                            <div class="rent-unit">per month</div>
+                        </div>
+                        <div class="button-container col-6">
+                            <a class="btn-primary" href="property-detail.html">View</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="footer-cities">
+                <div class="footer-city">
+                    <a href="property-list.html">PG in Delhi</a>
+                </div>
+                <div class="footer-city">
+                    <a href="property-list.html">PG in Mumbai</a>
+                </div>
+                <div class="footer-city">
+                    <a href="property-list.html">PG in Hyderabad</a>
+                </div>
+                <div class="footer-city">
+                    <a href="property-list.html">PG in Chennai</a>
+                </div>
+            </div>
+            <div class="footer-copyright">Â© 2020 Copyright PG Life </div>
+        </div>
+        </div>
+        </div>
+
+
+
+
+
+
+    </main>
+
+</body>
+
+</html>
